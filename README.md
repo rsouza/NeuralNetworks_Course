@@ -8,11 +8,10 @@ Entity-Relationship Models and Diagrams. Entity Types and Attributes. Relationsh
 
 |Day|Topic|Activities|
 |---|---|---|
-|04/08|Introduction, Syllabus, Evaluation, Integrated Development Environment|Users creation|
-|06/08|Basic Concepts, Representation. Abstraction. Structured and Unstructured Data|
-
-|26/11|NoSQL Databases|Elastic Search|
-|27/11-03/12|Evaluation (sending until 03/12)|
+|04/08|Introduction, Syllabus, Evaluation, Integrated Development Environment|Users creation|  
+|06/08|Basic Concepts, Representation. Abstraction. Structured and Unstructured Data|  
+|26/11|NoSQL Databases|Elastic Search|  
+|27/11-03/12|Evaluation (sending until 03/12)|  
 |---|---|---|
 
 
