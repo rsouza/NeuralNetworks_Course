@@ -9,47 +9,20 @@ Mathematical Foundations for Neural Networks: Linear Algebra, Probability, Optim
 |Day|Topic|Resources and Activities|
 |---|---|---|
 |18/09|Presentation, Evaluation, Environment, Examples of Neural Networks, Neuroscience (motivation) , Neural Networks basics , Machine Learning Basics|Users creation|  
-|25/09|Training Neural Networks , Loss, Training/Validating/Testing, Gradient Descent 
-Stochastic Gradient Descent , ADAM |  
-|02/10|Topics in Constructing and Training Neural Networks, Operators, Drop out 
-Initialization, Normalization|  
-|09/10|Training Neural Networks , Loss, Training/Validating/Testing, Gradient Descent| 
-|09/10|Evaluation (sending until 03/12)|  
-
+|25/09|Training Neural Networks , Loss, Training/Validating/Testing, Gradient Descent, Stochastic Gradient Descent, ADAM |  
+|02/10|Topics in Constructing and Training Neural Networks, Operators, Drop out Initialization, Normalization|  
+|09/10|Feedforward Neural Networks| 
+|16/10|ML/DL Frameworks (Python, Pytorch, TensorFlow)|
+|23/10|Seminars|
+|30/10|Convolutional Neural Networks, Motivation (Neuroscience), Convolutional layers Additional layers, Residual Nets, Examples|
+|06/11|Recurrent Neural Networks, Motivation (Neuroscience), Sequential Processing Stability , Gated Nets (LSTM, GRU), Examples|
+|13/11|Adversarial Approaches to ANN / Generative Adversarial Neural Networks , Adversaries Generator-Discriminator, Stability|
+|20/11|Seminars|
+|27/11|Transfer Learning|
+|04/12|Reinforcement Learning / Unsupervised Learning|
+|11/12|Attention and Transformers|
+|18/12|Seminars|
 |---|---|---|  
-
-
-
-
-
- , Additional 
-09/10
-Feedforward Neural Networks
-16/10
-ML/DL Frameworks (Python, Pytorch, TensorFlow)
-23/10
-Seminários
-30/10
-Convolutional Neural Networks, Motivation (Neuroscience), Convolutional layers 
-Additional layers, Residual Nets, Examples 
-06/11
-Recurrent Neural Networks, Motivation (Neuroscience), Sequential Processing 
-Stability , Gated Nets (LSTM, GRU) , Examples 
-13/11
-Adversarial Approaches to ANN / Generative Adversarial Neural Networks , Adversaries 
-Generator-Discriminator , Stability 
-20/11
-Seminários
-27/11
-Transfer Learning
-04/12
-Reinforcement Learning / Unsupervised learning 
-11/12
-Attention and Transformers
-18/12
-Seminários  
-
-
 
 ** Books **
   + [Ian Goodfellow, Yoshua Bengio, Aaron Courville. Deep Learning. 2016](https://www.deeplearningbook.org/)  
