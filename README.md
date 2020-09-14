@@ -2,17 +2,53 @@
 
 **Syllabus**
 
-Entity-Relationship Models and Diagrams. Entity Types and Attributes. Relationships. Relational Databases. Keys, Integrity. Relational Algebra. Formal Query Languages. SQL. Programmatic Databases Access. NoSQL Databases. RDF Triplestores. API Access
+Mathematical Foundations for Neural Networks: Linear Algebra, Probability, Optimization, Numerical Computation. Perceptrons and Multi-Layer Perceptrons. Deep Learn. Feedforward networks. Backpropagation. Regularization. Performance. Learning Assessment. Neural Network Tasks and Architectures: Convolutional Neural Networks (CNNs). Sequential Models: Recurrent Neural Networks (RNNs). Long Short Term Memory Networks (LSTMs). Generative Adversarial Networks (GANs). Transfer Learning. Hopfield Networks. Boltzmann Machine Network. Deep Belief Networks. Deep Auto-encoders. Capsule Networks. Deep Learning for PLN. Deep Learn research. Open Source models. Algorithms. Hardware and Software Platforms. Examples.
 
 #### Detailed Program:
 
-|Day|Topic|Activities|
+|Day|Topic|Resources and Activities|
 |---|---|---|
-|04/08|Introduction, Syllabus, Evaluation, Integrated Development Environment|Users creation|  
-|06/08|Basic Concepts, Representation. Abstraction. Structured and Unstructured Data|  
-|26/11|NoSQL Databases|Elastic Search|  
-|27/11-03/12|Evaluation (sending until 03/12)|  
+|18/09|Presentation, Evaluation, Environment, Examples of Neural Networks, Neuroscience (motivation) , Neural Networks basics , Machine Learning Basics|Users creation|  
+|25/09|Training Neural Networks , Loss, Training/Validating/Testing, Gradient Descent 
+Stochastic Gradient Descent , ADAM |  
+|02/10|Topics in Constructing and Training Neural Networks, Operators, Drop out 
+Initialization, Normalization|  
+|09/10|Training Neural Networks , Loss, Training/Validating/Testing, Gradient Descent| 
+|09/10|Evaluation (sending until 03/12)|  
+
 |---|---|---|  
+
+
+
+
+
+ , Additional 
+09/10
+Feedforward Neural Networks
+16/10
+ML/DL Frameworks (Python, Pytorch, TensorFlow)
+23/10
+Seminários
+30/10
+Convolutional Neural Networks, Motivation (Neuroscience), Convolutional layers 
+Additional layers, Residual Nets, Examples 
+06/11
+Recurrent Neural Networks, Motivation (Neuroscience), Sequential Processing 
+Stability , Gated Nets (LSTM, GRU) , Examples 
+13/11
+Adversarial Approaches to ANN / Generative Adversarial Neural Networks , Adversaries 
+Generator-Discriminator , Stability 
+20/11
+Seminários
+27/11
+Transfer Learning
+04/12
+Reinforcement Learning / Unsupervised learning 
+11/12
+Attention and Transformers
+18/12
+Seminários  
+
 
 
 ** Books **
