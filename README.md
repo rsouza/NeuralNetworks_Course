@@ -4,17 +4,12 @@
 
 + Definitions: Data Science, Artificial Intelligence, Machine Learning, Neural Networks and Deep Learning
 + Supervised Machine Learning: Concepts and Process Workflow
++ Applied Math and Machine Learning Basics 
+  + [Linear Algebra](https://www.deeplearningbook.org/contents/linear_algebra.html)  
+  + [Probability and Information Theory](https://www.deeplearningbook.org/contents/prob.html)  
+  + [Numerical Computation](https://www.deeplearningbook.org/contents/numerical.html)  
+  + [Machine Learning Basics](https://www.deeplearningbook.org/contents/ml.html)
 + Introduction: Logistic Regression and Neural Networks
-+ Machine Learning and Artificial Neural Network concepts 
-  + Neuron and Layers
-  + Universal approximation theorem
-  + Data Preprocessing
-  + Optimization / Learning Algorithms
-  + Parameters and Hyperparameters
-  + Forward and BackPropagation, Gradient Checking
-  + Activation Functions
-  + Bias, Variance, Overfitting, Underfitting, Regularization
-  + Optimization, Batch and Mini-Batch
 + Development Frameworks: PyTorch / Tensorflow
 + Types of Neural networks
   + Perceptron (P), FeedForward (FF), Deep Feed Forward (DFF), Extreme Learning Machines (ELM)
