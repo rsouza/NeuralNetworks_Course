@@ -24,12 +24,12 @@ Mathematical Foundations for Neural Networks: Linear Algebra, Probability, Optim
 |18/12|Seminars|
 |---|---|---|  
 
-** Books **
+**Books**
   + [Ian Goodfellow, Yoshua Bengio, Aaron Courville. Deep Learning. 2016](https://www.deeplearningbook.org/)  
   + [Hastie, Tibshirani and Friedman. The Elements of Statistical Learning. 2nd edition, 2009](https://web.stanford.edu/~hastie/ElemStatLearn/)  
 
 
-** References **
+**References**
 
 + Neural Networks and Deep Learning [ref1](http://neuralnetworksanddeeplearning.com/chap1.html), [ref2](https://towardsdatascience.com/neural-network-architectures-156e5bad51ba), [ref3](https://medium.com/intuitive-deep-learning/intuitive-deep-learning-part-1a-introduction-to-neural-networks-d7b16ebf6b99), [ref4](https://towardsdatascience.com/a-weird-introduction-to-deep-learning-7828803693b0),  [ref5](https://ujjwalkarn.me/2016/08/09/quick-intro-neural-networks/), [ref6](https://www.analyticsvidhya.com/blog/2018/05/deep-learning-faq/), [ref7](https://www.kdnuggets.com/2018/02/8-neural-network-architectures-machine-learning-researchers-need-learn.html), [ref8](https://towardsdatascience.com/newbies-guide-to-deep-learning-6bf601c5a98e), [ref9](https://towardsdatascience.com/understanding-neural-networks-19020b758230), [ref10](https://towardsdatascience.com/understanding-neural-networks-what-how-and-why-18ec703ebd31), [simple implementation](https://towardsdatascience.com/lets-code-a-neural-network-in-plain-numpy-ae7e74410795), [book](http://www.deeplearningbook.org/contents/TOC.html), [viz](https://towardsdatascience.com/activation-maps-for-deep-learning-models-in-a-few-lines-of-code-ed9ced1e8d21), [video](https://www.youtube.com/watch?v=aircAruvnKk&t=0s&index=1&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi), [meme](https://indico.io/blog/wp-content/uploads/2016/02/inception_meme.jpg)
 + Deep Learning and NLP [ref1](https://medium.com/dair-ai/deep-learning-for-nlp-an-overview-of-recent-trends-d0d8f40a776d)  
