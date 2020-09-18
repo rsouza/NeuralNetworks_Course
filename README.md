@@ -2,13 +2,34 @@
 
 **Syllabus**
 
-Mathematical Foundations for Neural Networks: Linear Algebra, Probability, Optimization, Numerical Computation. Perceptrons and Multi-Layer Perceptrons. Deep Learn. Feedforward networks. Backpropagation. Regularization. Performance. Learning Assessment. Neural Network Tasks and Architectures: Convolutional Neural Networks (CNNs). Sequential Models: Recurrent Neural Networks (RNNs). Long Short Term Memory Networks (LSTMs). Generative Adversarial Networks (GANs). Transfer Learning. Hopfield Networks. Boltzmann Machine Network. Deep Belief Networks. Deep Auto-encoders. Capsule Networks. Deep Learning for PLN. Deep Learn research. Open Source models. Algorithms. Hardware and Software Platforms. Examples.
++ Definitions: Data Science, Artificial Intelligence, Machine Learning, Neural Networks and Deep Learning
++ Supervised Machine Learning: Concepts and Process Workflow
++ Development Frameworks: PyTorch / Tensorflow
++ Introduction: Logistic Regression and Neural Networks
++ Machine Learning and Artificial Neural Network concepts 
+  + Neuron and Layers
+  + Universal approximation theorem
+  + Data Preprocessing
+  + Optimization / Learning Algorithms
+  + Parameters and Hyperparameters
+  + Forward and BackPropagation, Gradient Checking
+  + Activation Functions
+  + Bias, Variance, Overfitting, Underfitting, Regularization
+  + Optimization, Batch and Mini-Batch
++ Types of Neural networks
+  + Perceptron (P), FeedForward (FF), Deep Feed Forward (DFF), Extreme Learning Machines (ELM)
+  + Recurrent Neural Network (RNN), Long / Short Term Memory (LSTM), Gated Recurrent Unit (GRU), Deep Residual Networks (DRN), Transformer Neural Networks (Transformers)
+  + Auto Encoders (AE, VAE, DAE, SAE)
+  + Convolution Neural Networks (CNN), Deconvolution Neural Networks (DNN), DCIGN
+  + Generative Adversarial Network (GAN)
+  + Other Types (LSM, KN, NTM, SVM)
++ NN Topics: Representation Learning, Transfer Learning 
 
 #### Detailed Program:
 
 |Day|Topic|Resources and Activities|
 |---|---|---|
-|18/09|Presentation, Evaluation, Environment, Examples of Neural Networks, Neuroscience (motivation) , Neural Networks basics , Machine Learning Basics|Users creation|  
+|18/09|Definitions: Data Science, Artificial Intelligence, Machine Learning, Neural Networks and Deep Learning, Supervised Machine Learning: Concepts and Process Workflow|Hands On environments|  
 |25/09|Training Neural Networks , Loss, Training/Validating/Testing, Gradient Descent, Stochastic Gradient Descent, ADAM |  
 |02/10|Topics in Constructing and Training Neural Networks, Operators, Drop out Initialization, Normalization|  
 |09/10|Feedforward Neural Networks| 
@@ -21,7 +42,7 @@ Mathematical Foundations for Neural Networks: Linear Algebra, Probability, Optim
 |27/11|Transfer Learning|
 |04/12|Reinforcement Learning / Unsupervised Learning|
 |11/12|Attention and Transformers|
-|18/12|Seminars|
+|18/12|Seminars|  
 |---|---|---|  
 
 **Books**
