@@ -4,7 +4,6 @@
 
 + Definitions: Data Science, Artificial Intelligence, Machine Learning, Neural Networks and Deep Learning
 + Supervised Machine Learning: Concepts and Process Workflow
-+ Development Frameworks: PyTorch / Tensorflow
 + Introduction: Logistic Regression and Neural Networks
 + Machine Learning and Artificial Neural Network concepts 
   + Neuron and Layers
@@ -16,6 +15,7 @@
   + Activation Functions
   + Bias, Variance, Overfitting, Underfitting, Regularization
   + Optimization, Batch and Mini-Batch
++ Development Frameworks: PyTorch / Tensorflow
 + Types of Neural networks
   + Perceptron (P), FeedForward (FF), Deep Feed Forward (DFF), Extreme Learning Machines (ELM)
   + Recurrent Neural Network (RNN), Long / Short Term Memory (LSTM), Gated Recurrent Unit (GRU), Deep Residual Networks (DRN), Transformer Neural Networks (Transformers)
@@ -23,7 +23,7 @@
   + Convolution Neural Networks (CNN), Deconvolution Neural Networks (DNN), DCIGN
   + Generative Adversarial Network (GAN)
   + Other Types (LSM, KN, NTM, SVM)
-+ NN Topics: Representation Learning, Transfer Learning 
++ NN Topics: Representation Learning, Reinforcement Learning, Transfer Learning 
 
 #### Detailed Program:
 
