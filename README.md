@@ -43,7 +43,10 @@
 **Books**
   + [Ian Goodfellow, Yoshua Bengio, Aaron Courville. Deep Learning. 2016](https://www.deeplearningbook.org/)  
   + [Hastie, Tibshirani and Friedman. The Elements of Statistical Learning. 2nd edition, 2009](https://web.stanford.edu/~hastie/ElemStatLearn/)  
+  + [Molnar, Christoph. Interpretable Machine Learning. Lulu. com, 2020.](https://christophm.github.io/interpretable-ml-book/)
 
+**Papers**
+  + [100 best NLP Papers](https://github.com/mhagiwara/100-nlp-papers)
 
 **References**
 
@@ -85,7 +88,6 @@
 + Transfer Learning [ref1](https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a), [ref2](https://towardsdatascience.com/transfer-learning-from-pre-trained-models-f2393f124751), [ref3](https://towardsdatascience.com/style-up-your-photos-with-a-touch-of-deep-learning-magic-60a003c676f9), [ref4](https://towardsdatascience.com/transfer-learning-and-image-classification-using-keras-on-kaggle-kernels-c76d3b030649), [ref5](https://towardsdatascience.com/advanced-topics-in-neural-networks-f27fbcc638ae), [ref6](https://medium.com/modern-nlp/transfer-learning-in-nlp-f5035cc3f62f), [ref6](https://medium.com/@matthew_stewart/neural-style-transfer-and-visualization-of-convolutional-networks-7362f6cf4b9b), [ref7](https://medium.com/modern-nlp/3-ways-to-make-new-language-models-f3642e3a4816)  
 + Autoencoders [ref1](https://medium.com/intuitive-deep-learning/autoencoders-neural-networks-for-unsupervised-learning-83af5f092f0b), [ref2](https://towardsdatascience.com/a-high-level-guide-to-autoencoders-b103ccd45924), [ref3](https://towardsdatascience.com/auto-encoder-what-is-it-and-what-is-it-used-for-part-1-3e5c6f017726), [ref4](https://towardsdatascience.com/everything-you-need-to-know-about-autoencoders-in-tensorflow-b6a63e8255f0), [ref5](https://www.analyticsvidhya.com/blog/2020/02/what-is-autoencoder-enhance-image-resolution/)  
 + Generative Adversarial Networks [ref1](https://www.analyticsvidhya.com/blog/2017/06/introductory-generative-adversarial-networks-gans/), [ref2](https://www.analyticsvidhya.com/blog/2020/01/generative-models-gans-computer-vision/), [ref3](https://towardsdatascience.com/an-easy-introduction-to-generative-adversarial-networks-6f8498dc4bcd), [ref4](https://towardsdatascience.com/gan-by-example-using-keras-on-tensorflow-backend-1a6d515a60d0), [ref5](https://medium.com/@mattiaspinelli/simple-generative-adversarial-network-gans-with-keras-1fe578e44a87), [ref6](https://towardsdatascience.com/style-transfer-with-gans-on-hd-images-88e8efcf3716), [ref7](https://medium.com/@gregoiredeletang/how-gans-really-work-2e1db1f407bb), [ref8](https://towardsdatascience.com/pix2pix-gan-in-tensorflow-2-0-fe0ab475c713), [GANS and Deepfakes](https://towardsdatascience.com/realistic-deepfakes-colab-e13ef7b2bba7), [Colab Notebooks](https://towardsdatascience.com/12-colab-notebooks-that-matter-e14ce1e3bdd0) 
-
 
 ** Software **  
   + [Anaconda - Jupyter - Python](https://www.anaconda.com/products/individual)(Python Environment)
