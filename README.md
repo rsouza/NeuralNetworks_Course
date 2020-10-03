@@ -43,7 +43,8 @@
 **Books**
   + [Ian Goodfellow, Yoshua Bengio, Aaron Courville. Deep Learning. 2016](https://www.deeplearningbook.org/)  
   + [Hastie, Tibshirani and Friedman. The Elements of Statistical Learning. 2nd edition, 2009](https://web.stanford.edu/~hastie/ElemStatLearn/)  
-  + [Molnar, Christoph. Interpretable Machine Learning. Lulu. com, 2020.](https://christophm.github.io/interpretable-ml-book/)
+  + [Molnar, Christoph. Interpretable Machine Learning. Lulu. com, 2020.](https://christophm.github.io/interpretable-ml-book/)  
+  + [Strang, Gilbert. Linear algebra and learning from data. Wellesley-Cambridge Press, 2019.](https://math.mit.edu/~gs/learningfromdata/)  
 
 **Papers**
   + [100 best NLP Papers](https://github.com/mhagiwara/100-nlp-papers)
