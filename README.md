@@ -28,6 +28,7 @@
 
 **Papers**
   + [100 best NLP Papers](https://github.com/mhagiwara/100-nlp-papers)
+  + [Papers on Text Style Transfer](https://github.com/fuzhenxin/Style-Transfer-in-Text)
 
 **References**
 
