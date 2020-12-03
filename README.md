@@ -20,26 +20,6 @@
   + Other Types (LSM, KN, NTM, SVM)
 + NN Topics: Representation Learning, Reinforcement Learning, Transfer Learning 
 
-#### Detailed Program:
-
-|Day|Topic|Resources and Activities|
-|---|---|---|
-|18/09|Definitions: Data Science, Artificial Intelligence, Machine Learning, Neural Networks and Deep Learning, Supervised Machine Learning: Concepts and Process Workflow|Hands On environments|  
-|25/09| |  
-|02/10||  
-|09/10|| 
-|16/10||
-|23/10||
-|30/10||
-|06/11||
-|13/11||
-|20/11||
-|27/11||
-|04/12||
-|11/12||
-|18/12||  
-|---|---|---|  
-
 **Books**
   + [Ian Goodfellow, Yoshua Bengio, Aaron Courville. Deep Learning. 2016](https://www.deeplearningbook.org/)  
   + [Hastie, Tibshirani and Friedman. The Elements of Statistical Learning. 2nd edition, 2009](https://web.stanford.edu/~hastie/ElemStatLearn/)  
@@ -48,6 +28,7 @@
 
 **Papers**
   + [100 best NLP Papers](https://github.com/mhagiwara/100-nlp-papers)
+  + [Papers on Text Style Transfer](https://github.com/fuzhenxin/Style-Transfer-in-Text)
 
 **References**
 
