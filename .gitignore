@@ -1,14 +1,7 @@
 .ipynb_checkpoints
-Notebooks/PyTorch/GAN/samples/sample_1.png
-Notebooks/PyTorch/GAN/samples/sample_10.png
-Notebooks/PyTorch/GAN/samples/sample_2.png
-Notebooks/PyTorch/GAN/samples/sample_3.png
-Notebooks/PyTorch/GAN/samples/sample_4.png
-Notebooks/PyTorch/GAN/samples/sample_5.png
-Notebooks/PyTorch/GAN/samples/sample_6.png
-Notebooks/PyTorch/GAN/samples/sample_7.png
-Notebooks/PyTorch/GAN/samples/sample_8.png
-Notebooks/PyTorch/GAN/samples/sample_9.png
+Notebooks/PyTorch/GAN/samples/sample_*.png
+Notebooks/TensorFlow/AE/image*.png
+Notebooks/TensorFlow/AE/*.gif
 Notebooks/PyTorch/data/MNIST/raw/train-labels-idx1-ubyte.gz
 Notebooks/PyTorch/data/MNIST/raw/train-labels-idx1-ubyte
 Notebooks/PyTorch/data/MNIST/raw/train-images-idx3-ubyte.gz
