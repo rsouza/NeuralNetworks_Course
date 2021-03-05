@@ -19,3 +19,4 @@ Notebooks/PyTorch/ANN/data/
 Notebooks/PyTorch/Attention/.data/
 Notebooks/PyTorch/LSTM/data/
 Notebooks/PyTorch/GAN/samples/sample_*.png
+Notebooks/PyTorch/Transformers/.data/
