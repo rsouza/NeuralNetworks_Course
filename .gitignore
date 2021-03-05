@@ -1,7 +1,8 @@
 .ipynb_checkpoints
-Notebooks/PyTorch/GAN/samples/sample_*.png
 Notebooks/TensorFlow/AE/image*.png
 Notebooks/TensorFlow/AE/*.gif
+Notebooks/TensorFlow/ANN/logs/*
+Notebooks/TensorFlow/ANN/breast_cancer/
 Notebooks/PyTorch/data/MNIST/raw/train-labels-idx1-ubyte.gz
 Notebooks/PyTorch/data/MNIST/raw/train-labels-idx1-ubyte
 Notebooks/PyTorch/data/MNIST/raw/train-images-idx3-ubyte.gz
@@ -12,3 +13,9 @@ Notebooks/PyTorch/data/MNIST/raw/t10k-images-idx3-ubyte.gz
 Notebooks/PyTorch/data/MNIST/raw/t10k-images-idx3-ubyte
 Notebooks/PyTorch/data/MNIST/processed/training.pt
 Notebooks/PyTorch/data/MNIST/processed/test.pt
+Notebooks/PyTorch/data/*
+Notebooks/PyTorch/AE/samples/
+Notebooks/PyTorch/ANN/data/
+Notebooks/PyTorch/Attention/.data/
+Notebooks/PyTorch/LSTM/data/
+Notebooks/PyTorch/GAN/samples/sample_*.png
