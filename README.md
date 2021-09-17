@@ -17,6 +17,7 @@
   + Auto Encoders (AE, VAE, DAE, SAE)
   + Convolution Neural Networks (CNN), Deconvolution Neural Networks (DNN), DCIGN
   + Generative Adversarial Network (GAN)
+  + Graph Convolution Neural Networks (GCNN)
   + Other Types (LSM, KN, NTM, SVM)
 + NN Topics: Representation Learning, Reinforcement Learning, Transfer Learning 
 
