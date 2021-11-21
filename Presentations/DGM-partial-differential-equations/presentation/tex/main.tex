@@ -1,0 +1,277 @@
+\documentclass[13pt]{beamer}
+
+\input{preamble.tex}
+\usepackage{global-macros}
+
+\title[Deep Galerkin Method]{Deep Galerkin Method \\ {\normalsize Resolvendo EDPs Numericamente com Redes Neurais}}
+\author[C. Lins]{Caio Lins}
+\institute[EMAp]{FGV - EMAp}
+\date[EMAp 2021]{Novembro 2021}
+\titlegraphic{\includegraphics[height=0.8cm]{../figuras/fgv_logo.png}}
+
+\begin{comment}
+    TODO:
+        -- Ler papers citados pelo DGM
+\end{comment}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Sumário}
+    \tableofcontents
+\end{frame}
+
+\AtBeginSection[]{
+    \begin{frame}{Sumário}
+        \tableofcontents[currentsection]
+    \end{frame}
+}
+
+\section{Equações Diferenciais Parciais}
+
+\begin{frame}{Formulação do problema}
+    \begin{block}{EDP com condições iniciais e de fronteira}
+        Dados
+        \begin{itemize}
+            \item \( \Omega \subseteq \R^{ d } \) e \( T > 0 \) -- domínio
+            \item \( u_{ 0 } : \Omega \to \R \) -- condição inicial
+            \item \( g : [0, T] \times \partial \Omega \to \R \) -- condição de fronteira,
+        \end{itemize}
+        \visible<2->{queremos encontrar \( u : [0, T] \times \Omega \to \R \) tal que
+        \begin{equation*}
+            \begin{cases}
+                \partial_{ t } u ( t, \bfx ) + \mathcal{L} u ( t, \bfx ) = 0, &( t, \bfx ) \in [0, T] \times \Omega \\
+                u ( 0, \bfx ) = u_{ 0 } ( \bfx ), &\bfx \in \Omega \\
+                u ( t, \bfx ) = g ( t, \bfx ), &( t, \bfx ) \in [0, T] \times \partial \Omega
+            \end{cases}
+    \end{equation*}}
+    \end{block}
+
+\end{frame}
+
+\begin{frame}{Formulação do problema}
+    Aqui \( \mathcal{L} \) é um operador diferencial como, por exemplo, o laplaciano \( \nabla^2 \):
+    \begin{equation*}
+        \nabla^2 u = \frac{ \partial^2 u }{ \partial x_{ 1 }^2 } + \cdots + \frac{ \partial^2 u }{ \partial x_{ d }^2 }
+    .\end{equation*}
+\end{frame}
+
+\begin{frame}{Métodos numéricos}
+    \begin{itemize}
+        \item<1-> A solução numérica de EDPs é um desafio substancial.
+        \item<2-> Métodos numéricos non-network:
+        \begin{itemize}
+            \item<3-> \href{https://en.wikipedia.org/wiki/Finite_difference_method}{\emph{Métodos de diferenças finitas}}
+
+                Aproxima os valores da solução \( u ( t, \bfx ) \) em um \emph{grid} utilizando uma equação de recorrência.
+
+                \visible<4->{Por exemplo, para a equação do calor \( \partial_{ t } u = \partial_{ xx } u \):
+                    \begin{equation*}
+                        u ( t + \Delta t, \bfx ) \approx u ( t, \bfx ) + \mu [
+                            u ( t, \bfx + \Delta \bfx ) - 2 u ( t, \bfx ) + u ( t, \bfx - \Delta \bfx )
+                        ]
+                    .\end{equation*}}
+                \item<5-> \href{https://en.wikipedia.org/wiki/Finite_element_method}{\emph{Métodos de elementos finitos}}
+
+                Utiliza um espaço de funções de dimensão finita para aproximar a solução.
+                Por exemplo, funções lineares ou polinomiais por partes.
+
+                Também faz uso de um \emph{grid}.
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+
+\begin{frame}{Métodos Numéricos}
+    \begin{itemize}
+        \item<1-> Principal problema: a necessidade do \emph{grid}.
+        \item<2-> Número de pontos no \emph{grid} cresce exponencialmente com o número de dimensões espaciais.
+        \item<3-> Métodos envolvendo Deep Learning passaram a contornar esse problema.
+    \end{itemize}
+\end{frame}
+
+\section{Redes Neurais e EDPs}
+
+\begin{frame}{Ideia Principal}
+    \begin{itemize}
+        \item<1-> Vamos tentar aproximar a solução da EDP em \( [0, T] \times \Omega \) com uma rede neural \( f ( t, \bfx, \theta ) \)
+            \begin{itemize}
+                \item<2-> Essa ideia faz sentido, pois redes neurais são aproximadores universais de funções contínuas \cite{hornik91}.
+            \end{itemize}
+        \item<3-> Função de perda teórica, com três partes:
+            \begin{align*}
+                J ( f ) = &\int_{ [0, T] \times \Omega } \norm{ \partial_{ t } f ( t, \bfx, \theta ) + \mathcal{L} f ( t, \bfx, \theta ) }^2 \ \mathrm{d}\nu_{ 1 } \\
+                &+ \int_{ [0, T] \times \partial \Omega } \norm{ f ( t, \bfx, \theta ) - g ( t, \bfx ) }^2 \ \mathrm{d}\nu_{ 2 } \\
+                &+ \int_{ \Omega } \norm{ f ( 0, \bfx, \theta ) - u_{ 0 } ( \bfx ) }^2 \ \mathrm{d}\nu_{ 3 }
+            ,\end{align*}
+            onde \( \nu_{ 1 }, \nu_{ 2 }, \nu_{ 3 } \) são medidas finitas.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Ideia Principal}
+    \begin{itemize}
+        \item<1-> Na prática, para calcular a perda em um conjunto de pontos
+            \begin{equation*}
+                \begin{cases}
+                    ( t_{ i }, \bfx_{ i } ) \subset [0, T] \times \Omega, \\
+                    ( \tau_{ i }, \bfy_{ i } ) \subset [0, T] \times \partial \Omega, \\
+                    \bfw_{ i } \subset \Omega,
+                \end{cases}
+            \end{equation*}
+            \( i = 1, \dots, n \), utilizamos o MSE:
+            \begin{align*}
+                J ( f ) = &\frac{ 1 }{ n } \sum_{ i=1 }^{ n } \abs{ \partial_{ t } f ( t_{ i }, \bfx_{ i }, \theta ) - \mathcal{L} f ( t_{ i }, \bfx_{ i }, \theta ) }^2 \\
+                    &+ \frac{ 1 }{ n } \sum_{ i=1 }^{ n } \abs{ f ( \tau_{ i }, \bfy_{ i }, \theta ) - g ( \tau_{ i }, \bfy_{ i } ) }^2 \\
+                    &+ \frac{ 1 }{ n } \sum_{ i=1 }^{ n } \abs{ f ( 0, \bfw_{ i }, \theta ) - u_{ 0 } ( \bfw_{ i } ) }^2
+            .\end{align*}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Primeiros Trabalhos}
+    \begin{figure}[htb]
+        \includegraphics[width=\textwidth]{../figuras/seminal-1994.png}
+    \end{figure}
+    \cite{dissanayake94} utiliza essa ideia para solucionar equações bidimensionais definidas em \( \Omega = [0, 1]^2 \).
+\end{frame}
+
+
+\begin{frame}{Primeiros Trabalhos}
+    Características principais:
+    \begin{itemize}
+        \item<1-> Uso de NNs do tipo feedforward como aproximadores.
+        \item<2-> Otimização feita utilizando um método quasi-Newton.
+        \item<3-> Gradientes aproximados utilizando diferenças finitas.
+        \item<4-> Pontos de treino são tomados de um \emph{grid} no domínio.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Primeiros Trabalhos}
+    \begin{figure}[htb]
+        \includegraphics[width=.8\textwidth]{../figuras/seminal-1998.png}
+    \end{figure}
+    \cite{lagaris98} emprega esse método para solucionar EDOs, bem como EDPs definidas em cubos unitários.
+\end{frame}
+
+\begin{frame}{Primeiros Trabalhos}
+    Principais diferenças:
+    \begin{itemize}
+        \item<1-> Solução não é exclusivamente uma rede neural.
+            Se \( \Psi_{ \theta } \) é a solução aproximada parametrizada por \( \theta \), temos
+            \begin{equation*}
+                \Psi_{ \theta } ( \bvx ) = A ( \bvx ) + F ( \bvx, f ( \bvx, \theta ) )
+            ,\end{equation*}
+            onde \( f ( \bvx, \theta ) \) é a rede neural.
+
+            \visible<2->{A ideia é que \( A ( \bvx ) \) não tenha parâmetros e satisfaça condições de fronteira.
+                O termo \( F ( \bvx, f ( \bvx, \theta ) ) \) é encarregado fazer \( \Psi_{ \theta } \) obeder a EDP/EDO.
+            }
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Primeiros Trabalhos}
+    Principais diferenças:
+    \begin{itemize}
+        \item<1-> Por exemplo, considerando a EDO:
+            \begin{equation*}
+                u' ( x ) = g ( x, u )
+            ,\end{equation*}
+            com condição inicial \( \Psi ( 0 ) = A \), a solução é escrita como
+            \begin{equation*}
+                \Psi_{ \theta } ( x ) = A + x f ( x, \theta )
+            .\end{equation*}
+        \item<2-> Além disso, passa a utilizar diferenciação automática.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Primeiros Trabalhos}
+    Entretanto:
+    \begin{itemize}
+        \item<1-> Rede utilizada ainda é uma MLP.
+        \item<2-> Otimização continua quasi-Newton.
+        \item<3-> \emph{Grid} de treinamento se mantém.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Desenvolvimentos mais Recentes}
+    \begin{figure}[htb]
+        \includegraphics[width=\textwidth]{../figuras/pinn.png}
+    \end{figure}
+    \cite{raissi17} cunham o termo \emph{Physics Informed Neural Network -- PINN}
+\end{frame}
+
+\begin{frame}{Desenvolvimentos mais Recentes}
+    \begin{itemize}
+        \item<1-> Uma PINN não necessariamente está relacionada a uma EDP.
+        \item<2-> A ideia é incorporar informações vindas da física no processo de treinamento e, assim, fazer um uso mais eficiente dos dados disponíveis.
+            \begin{itemize}
+                \item Em sistemas físicos reais, o custo da aquisição de dados muitas vezes é demasiadamente elevado.
+            \end{itemize}
+        \item<3-> Entretanto, nos exemplos desse artigo especificamente, a ideia é incorporar a EDP na função de perda, como já descrevemos.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Desenvolvimentos mais Recentes}
+    Como agora o objetivo é ter a possibilidade de usar dados coletados, o conjunto de treino é um pouco diferente:
+    \begin{itemize}
+        \item<2-> Poucos pontos são tomados nas condições iniciais.
+            \begin{itemize}
+                \item \( 100 \) pontos, por exemplo.
+            \end{itemize}
+        \item<3-> A maior parte do conjunto de treino é tomada no interior de \( [0, T] \times \Omega \).
+            \begin{itemize}
+                \item E.g. \( 10 000 \) pontos distribuídos aleatoriamente.
+            \end{itemize}
+        \item<4-> Ou seja, não há mais um \emph{grid}.
+            Os pontos no interior do domínio são amostrados uma única vez antes de começar o treinamento.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Desenvolvimentos mais Recentes}
+    \begin{itemize}
+        \item<1-> Rede utilizada ainda é uma MLP, porém agora com mais camadas.
+        \item<2-> Fizeram uso da diferenciação automática do Tensorflow.
+        \item<3-> Porém, o algoritmo de otimização ainda é quasi-Newton.
+    \end{itemize}
+\end{frame}
+
+\section{Deep Galerkin Method -- DGM}
+
+%% \begin{frame}{Deep Galerkin Method}{Arquitetura}
+%%     \begin{itemize}
+%%         \item<1-> Camada inicial densa, seguida por \( L \) camadas do tipo Highway/LSTM-like, terminando com uma transformação afim:
+%%             \begin{align*}
+%%             \hspace{-3.4pt}
+%%                 S^{ 1 } &= \sigma ( W^{ 1 } \bvx + b^{ 1 } ) \\
+%%                 Z^{ \ell } &= \sigma \left(
+%%                     U^{ z, \ell } \bvx + W^{ z, \ell } S^{ \ell } + b^{ z, \ell }
+%%                 \right), \ell = 1, \dots, L, \\
+%%                 G^{ \ell } &= \sigma \left(
+%%                     U^{ g, \ell } \bvx + W^{ g, \ell } S^{ \ell } + b^{ g, \ell }
+%%                 \right), \ell = 1, \dots, L, \\
+%%                 R^{ \ell } &= \sigma \left(
+%%                     U^{ r, \ell } \bvx + W^{ r, \ell } S^{ \ell } + b^{ r, \ell }
+%%                     \right), \ell = 1, \dots, L, \\
+%%                 H^{ \ell } &= \sigma \left(
+%%                     U^{ h, \ell } \bvx + W^{ h, \ell } \left(
+%%                         S^{ \ell } \odot R^{ \ell }
+%%                     \right) + b^{ h, \ell }
+%%                 \right), \ell = 1, \dots, L, \\
+%%                 S^{ \ell + 1 } &= \left(
+%%                         \bm{1} - G^{ \ell }
+%%                     \right) \odot H^{ \ell } + Z^{ \ell } \odot S^{ \ell } \\
+%%                     f ( t, \bfx, \theta ) &= W S^{ L + 1 } + b
+%%             \end{align*}
+%%     \end{itemize}
+%% \end{frame}
+
+
+% \section{Arquitetura}
+% \section{Problemas}
+
+\begin{frame}[allowframebreaks]{Referências}
+    \printbibliography
+\end{frame}
+
+\end{document}
+

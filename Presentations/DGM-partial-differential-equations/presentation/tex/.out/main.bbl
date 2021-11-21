@@ -1,0 +1,151 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{hornik91}{article}{}
+      \name{author}{1}{}{%
+        {{hash=76e6c80a3a6bccfc9b25501ab857f66c}{%
+           family={{Hornik}},
+           familyi={H\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{76e6c80a3a6bccfc9b25501ab857f66c}
+      \strng{fullhash}{76e6c80a3a6bccfc9b25501ab857f66c}
+      \strng{bibnamehash}{76e6c80a3a6bccfc9b25501ab857f66c}
+      \strng{authorbibnamehash}{76e6c80a3a6bccfc9b25501ab857f66c}
+      \strng{authornamehash}{76e6c80a3a6bccfc9b25501ab857f66c}
+      \strng{authorfullhash}{76e6c80a3a6bccfc9b25501ab857f66c}
+      \field{labelalpha}{Hor91}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural Networks}
+      \field{title}{Approximation Capabilities of Multilayer Feedforward Networks}
+      \field{volume}{4}
+      \field{year}{1991}
+      \field{pages}{251\bibrangedash 257}
+      \range{pages}{7}
+    \endentry
+    \entry{dissanayake94}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1b1dcf6ac853801ea35c0fca50e11e1c}{%
+           family={Dissanayake},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi W.\bibnamedelimi M.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=9bf6dabb0d3f1b0d4802cabe62c9873f}{%
+           family={Phan-Thien},
+           familyi={P\bibinithyphendelim T\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{66f8dfbbf6310b15f1b963c73b80d6be}
+      \strng{fullhash}{66f8dfbbf6310b15f1b963c73b80d6be}
+      \strng{bibnamehash}{66f8dfbbf6310b15f1b963c73b80d6be}
+      \strng{authorbibnamehash}{66f8dfbbf6310b15f1b963c73b80d6be}
+      \strng{authornamehash}{66f8dfbbf6310b15f1b963c73b80d6be}
+      \strng{authorfullhash}{66f8dfbbf6310b15f1b963c73b80d6be}
+      \field{labelalpha}{DP94}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications in Numerical Methods in Engineering}
+      \field{title}{Neural-Network-Based Approximations for Solving Partial Differential Equations}
+      \field{volume}{10}
+      \field{year}{1994}
+      \field{pages}{195\bibrangedash 201}
+      \range{pages}{7}
+    \endentry
+    \entry{lagaris98}{article}{}
+      \name{author}{3}{}{%
+        {{hash=92d10dbb011616ac1a21c8ccf55875bd}{%
+           family={Lagaris},
+           familyi={L\bibinitperiod},
+           given={I.\bibnamedelimi E.},
+           giveni={I\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=a69fc2548169625de5a2e0376be45c34}{%
+           family={Likas},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=aa2c1166ca15ba1d805579bfb2b3f170}{%
+           family={Fotiadis},
+           familyi={F\bibinitperiod},
+           given={D.\bibnamedelimi I.},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e49b0694aed695e8f498931a83518ee}
+      \strng{fullhash}{4e49b0694aed695e8f498931a83518ee}
+      \strng{bibnamehash}{4e49b0694aed695e8f498931a83518ee}
+      \strng{authorbibnamehash}{4e49b0694aed695e8f498931a83518ee}
+      \strng{authornamehash}{4e49b0694aed695e8f498931a83518ee}
+      \strng{authorfullhash}{4e49b0694aed695e8f498931a83518ee}
+      \field{labelalpha}{LLF98}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Neural Networks}
+      \field{title}{Artificial Neural Networks for Solving Ordinary and Partial Differential Equations}
+      \field{volume}{9}
+      \field{year}{1998}
+      \field{pages}{987\bibrangedash 1000}
+      \range{pages}{14}
+    \endentry
+    \entry{raissi17}{article}{}
+      \name{author}{3}{}{%
+        {{hash=95a17c39168b9e6b8812f207b4e036c1}{%
+           family={Raissi},
+           familyi={R\bibinitperiod},
+           given={Maziar},
+           giveni={M\bibinitperiod}}}%
+        {{hash=197d71332633e07aa578718628fdc405}{%
+           family={Perdikaris},
+           familyi={P\bibinitperiod},
+           given={Paris},
+           giveni={P\bibinitperiod}}}%
+        {{hash=bfaf154b1f300f885a75adce4c6b773e}{%
+           family={Karniadakis},
+           familyi={K\bibinitperiod},
+           given={George\bibnamedelima Em},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{767366a7d0fdde767496da8385111e76}
+      \strng{fullhash}{767366a7d0fdde767496da8385111e76}
+      \strng{bibnamehash}{767366a7d0fdde767496da8385111e76}
+      \strng{authorbibnamehash}{767366a7d0fdde767496da8385111e76}
+      \strng{authornamehash}{767366a7d0fdde767496da8385111e76}
+      \strng{authorfullhash}{767366a7d0fdde767496da8385111e76}
+      \field{labelalpha}{RPK17}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1711.10561}
+      \field{title}{Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations}
+      \field{year}{2017}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
