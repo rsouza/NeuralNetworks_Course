@@ -716,6 +716,9 @@ INPUT /home/caiolins/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /home/caiolins/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
 INPUT /home/caiolins/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT /home/caiolins/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
+INPUT ../figuras/fd-grid.png
+INPUT ../figuras/fd-grid.png
+INPUT ../figuras/fd-grid.png
 INPUT .out/main.toc
 INPUT .out/main.toc
 INPUT ../figuras/seminal-1994.png
@@ -729,6 +732,22 @@ INPUT ../figuras/pinn.png
 INPUT ../figuras/pinn.png
 INPUT .out/main.toc
 INPUT .out/main.toc
+INPUT ../figuras/dgm.png
+INPUT ../figuras/dgm.png
+INPUT ../figuras/dgm.png
+INPUT /home/caiolins/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-bold.luc
+INPUT ../figuras/asynchronous-sgd.png
+INPUT ../figuras/asynchronous-sgd.png
+INPUT ../figuras/asynchronous-sgd.png
+INPUT ../figuras/asynchronous-sgd.png
+INPUT ../figuras/asynchronous-sgd.png
+INPUT /home/caiolins/texlive/2021/texmf-dist/tex/latex/amsfonts/ueuf.fd
+INPUT /home/caiolins/texlive/2021/texmf-dist/tex/latex/amsfonts/ueuf.fd
+INPUT /home/caiolins/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm10.tfm
+INPUT /home/caiolins/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm10.tfm
+INPUT /home/caiolins/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm7.tfm
+INPUT /home/caiolins/texlive/2021/texmf-var/luatex-cache/generic/fonts/otl/lmsans8-oblique.luc
+INPUT /home/caiolins/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm5.tfm
 OUTPUT .out/main.nav
 OUTPUT .out/main.toc
 OUTPUT .out/main.snm
@@ -736,6 +755,7 @@ INPUT .out/main.aux
 INPUT .out/main.out
 INPUT .out/main.run.xml
 OUTPUT .out/main.run.xml
+INPUT /home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
@@ -745,5 +765,6 @@ INPUT /home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
 INPUT /home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT /home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb
 INPUT /home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
 INPUT /home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb

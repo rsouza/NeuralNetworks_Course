@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.7.3)  21 NOV 2021 17:41
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021)  (format=lualatex 2021.7.3)  22 NOV 2021 18:57
  restricted system commands enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -1178,7 +1178,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 
 ]
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 83.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 84.
  [7
 
 ] [8
@@ -1190,17 +1190,22 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
 ] [11
 
 ]
+<../figuras/fd-grid.png, id=400, 990.70125pt x 774.895pt>
+File: ../figuras/fd-grid.png Graphic file (type png)
+<use ../figuras/fd-grid.png>
+Package luatex.def Info: ../figuras/fd-grid.png  used on input line 93.
+(luatex.def)             Requested size: 184.3758pt x 144.20465pt.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 92.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 93.
  [12
 
-] [13
+<../figuras/fd-grid.png>] [13
 
 ] [14
 
-] (./.out/main.toc) [15
+] [15
 
-] [16
+] (./.out/main.toc) [16
 
 ] [17
 
@@ -1208,33 +1213,33 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
 
 ] [19
 
+] [20
+
 ]
-<../figuras/seminal-1994.png, id=648, 1926.19624pt x 722.7pt>
+<../figuras/seminal-1994.png, id=679, 1926.19624pt x 722.7pt>
 File: ../figuras/seminal-1994.png Graphic file (type png)
 <use ../figuras/seminal-1994.png>
-Package luatex.def Info: ../figuras/seminal-1994.png  used on input line 136.
+Package luatex.def Info: ../figuras/seminal-1994.png  used on input line 146.
 (luatex.def)             Requested size: 307.28987pt x 115.2925pt.
- [20
+ [21
 
-<../figuras/seminal-1994.png>] [21
-
-] [22
+<../figuras/seminal-1994.png>] [22
 
 ] [23
 
 ] [24
 
+] [25
+
 ]
-<../figuras/seminal-1998.png, id=804, 1684.2925pt x 919.435pt>
+<../figuras/seminal-1998.png, id=835, 1684.2925pt x 919.435pt>
 File: ../figuras/seminal-1998.png Graphic file (type png)
 <use ../figuras/seminal-1998.png>
-Package luatex.def Info: ../figuras/seminal-1998.png  used on input line 154.
+Package luatex.def Info: ../figuras/seminal-1998.png  used on input line 164.
 (luatex.def)             Requested size: 245.83282pt x 134.1915pt.
- [25
+ [26
 
-<../figuras/seminal-1998.png>] [26
-
-] [27
+<../figuras/seminal-1998.png>] [27
 
 ] [28
 
@@ -1246,17 +1251,17 @@ Package luatex.def Info: ../figuras/seminal-1998.png  used on input line 154.
 
 ] [32
 
+] [33
+
 ]
-<../figuras/pinn.png, id=1050, 1662.21pt x 561.09625pt>
+<../figuras/pinn.png, id=1081, 1662.21pt x 561.09625pt>
 File: ../figuras/pinn.png Graphic file (type png)
 <use ../figuras/pinn.png>
-Package luatex.def Info: ../figuras/pinn.png  used on input line 201.
+Package luatex.def Info: ../figuras/pinn.png  used on input line 211.
 (luatex.def)             Requested size: 307.28987pt x 103.72412pt.
- [33
+ [34
 
-<../figuras/pinn.png>] [34
-
-] [35
+<../figuras/pinn.png>] [35
 
 ] [36
 
@@ -1274,11 +1279,80 @@ Package luatex.def Info: ../figuras/pinn.png  used on input line 201.
 
 ] [43
 
-] (./.out/main.toc) [44
+] [44
 
-] [45
+] (./.out/main.toc) [45
 
-] [46
+]
+<../figuras/dgm.png, id=1449, 1568.86125pt x 819.06pt>
+File: ../figuras/dgm.png Graphic file (type png)
+<use ../figuras/dgm.png>
+Package luatex.def Info: ../figuras/dgm.png  used on input line 256.
+(luatex.def)             Requested size: 230.46739pt x 120.31664pt.
+ [46
+
+<../figuras/dgm.png>] [47
+
+] [48
+
+] [49
+
+] [50
+
+] [51
+
+]
+<../figuras/asynchronous-sgd.png, id=1643, 1606.0pt x 464.73625pt>
+File: ../figuras/asynchronous-sgd.png Graphic file (type png)
+<use ../figuras/asynchronous-sgd.png>
+Package luatex.def Info: ../figuras/asynchronous-sgd.png  used on input line 298.
+(luatex.def)             Requested size: 245.83282pt x 71.13277pt.
+ [52
+
+<../figuras/asynchronous-sgd.png>]
+File: ../figuras/asynchronous-sgd.png Graphic file (type png)
+<use ../figuras/asynchronous-sgd.png>
+Package luatex.def Info: ../figuras/asynchronous-sgd.png  used on input line 298.
+(luatex.def)             Requested size: 245.83282pt x 71.13277pt.
+ [53
+
+] [54
+
+] [55
+
+] [56
+
+] [57
+
+] [58
+
+] [59
+
+] [60
+
+] [61
+
+]
+LaTeX Font Info:    Trying to load font information for U+euf on input line 396.
+ (/home/caiolins/texlive/2021/texmf-dist/tex/latex/amsfonts/ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 396.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 396.
+ [62
+
+] [63
+
+] [64
+
+] [65
+
+] [66
+
+
+] [67
 
 
 ]
@@ -1300,19 +1374,19 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45060 strings out of 478070
+ 45209 strings out of 478070
  125176,1977958 words of node,token memory allocated
- 5551 words of node memory still in use:
-   52 hlist, 14 vlist, 8 rule, 35 disc, 8 local_par, 106 glue, 36 kern, 25 penalty, 262 glyph, 301 attribute, 76 glue_spec, 152 attribute_list, 4 write, 1 pdf_start_link, 1 pdf_end_link, 1 pdf_dest, 1 pdf_action, 58 pdf_colorstack nodes
-   avail lists: 1:2,2:1435,3:429,4:516,5:279,6:83,7:2581,8:78,9:793,10:14,11:218
- 63494 multiletter control sequences out of 65536+600000
- 92 fonts using 7460463 bytes
+ 7712 words of node memory still in use:
+   58 hlist, 14 vlist, 8 rule, 55 disc, 9 local_par, 143 glue, 49 kern, 35 penalty, 427 glyph, 409 attribute, 76 glue_spec, 206 attribute_list, 4 write, 1 pdf_start_link, 1 pdf_end_link, 2 pdf_dest, 1 pdf_action, 68 pdf_colorstack nodes
+   avail lists: 1:2,2:1762,3:421,4:511,5:318,6:82,7:2820,8:77,9:889,10:15,11:224
+ 63566 multiletter control sequences out of 65536+600000
+ 100 fonts using 8213391 bytes
  128i,15n,117p,739b,1961s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/caiolins/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-oblique.otf></home/caiolins/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf></home/caiolins/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf></home/caiolins/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans8-regular.otf></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (46 pages, 730824 bytes).
+</home/caiolins/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/caiolins/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-oblique.otf></home/caiolins/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf></home/caiolins/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf></home/caiolins/texlive/2021/texmf-dist/fonts/opentype/public/lm/lmsans8-regular.otf></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></home/caiolins/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (67 pages, 1429829 bytes).
 
-PDF statistics: 1545 PDF objects out of 1728 (max. 8388607)
- 1402 compressed objects within 15 object streams
- 101 named destinations out of 1000 (max. 131072)
+PDF statistics: 2213 PDF objects out of 2487 (max. 8388607)
+ 2014 compressed objects within 21 object streams
+ 147 named destinations out of 1000 (max. 131072)
  48 words of extra memory for PDF output out of 10000 (max. 100000000)
 
