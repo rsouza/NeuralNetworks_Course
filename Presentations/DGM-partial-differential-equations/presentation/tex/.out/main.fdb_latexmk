@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber .out/main"] 1637589592 ".out/main.bcf" ".out/main.bbl" ".out/main" 1637618278
+["biber .out/main"] 1637589592 ".out/main.bcf" ".out/main.bbl" ".out/main" 1637674719
   "../bib/bibliografia.bib" 1637589578 4432 17f86f871359185c4e39f0f105734bbc ""
   ".out/main.bcf" 1637618277 107456 91d2e7f6a5e11b4b61458f8a9fd5117c "lualatex"
   (generated)
-  ".out/main.blg"
   ".out/main.bbl"
-["lualatex"] 1637618272 "main.tex" ".out/main.pdf" "main" 1637618278
+  ".out/main.blg"
+["lualatex"] 1637618272 "main.tex" ".out/main.pdf" "main" 1637674719
   "../figuras/asynchronous-sgd.png" 1637588242 233035 c279b506daaaeea893c2af05bce560ef ""
   "../figuras/dgm.png" 1637528219 147744 9cf2d4956d7ffaad06746311154ef9a4 ""
   "../figuras/fd-grid.png" 1637618209 280315 3280a9e8a061dffb869b2faf1085a59a ""
@@ -404,15 +404,15 @@
   "/home/caiolins/texlive/2021/texmf-var/tex/generic/config/language.dat" 1625323984 4473 05c5adfaca38bedea9c3becb715e8c1c ""
   "/home/caiolins/texlive/2021/texmf-var/web2c/luahbtex/lualatex.fmt" 1625324359 3372347 352cb8d41b6c472e38bb479e73261e92 ""
   "/home/caiolins/texmf/tex/latex/packages/global-macros.sty" 1617047162 1215 57b3f5d9546605d4b342a1dc3624b5af ""
-  "main.tex" 1637618271 17447 0508dcdb2c17677ac0eb9210e3963ac8 ""
+  "main.tex" 1637625079 17447 0508dcdb2c17677ac0eb9210e3963ac8 ""
   "preamble.tex" 1637612425 3582 9367c3ac3f9b58d72226b91704a1c957 ""
   (generated)
-  ".out/main.nav"
-  ".out/main.snm"
-  ".out/main.out"
-  ".out/main.run.xml"
   ".out/main.pdf"
   ".out/main.toc"
+  ".out/main.nav"
   ".out/main.bcf"
-  ".out/main.log"
+  ".out/main.out"
+  ".out/main.run.xml"
   ".out/main.aux"
+  ".out/main.log"
+  ".out/main.snm"
