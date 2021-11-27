@@ -1,0 +1,318 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{hornik91}{article}{}
+      \name{author}{1}{}{%
+        {{hash=76e6c80a3a6bccfc9b25501ab857f66c}{%
+           family={{Hornik}},
+           familyi={H\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{76e6c80a3a6bccfc9b25501ab857f66c}
+      \strng{fullhash}{76e6c80a3a6bccfc9b25501ab857f66c}
+      \strng{bibnamehash}{76e6c80a3a6bccfc9b25501ab857f66c}
+      \strng{authorbibnamehash}{76e6c80a3a6bccfc9b25501ab857f66c}
+      \strng{authornamehash}{76e6c80a3a6bccfc9b25501ab857f66c}
+      \strng{authorfullhash}{76e6c80a3a6bccfc9b25501ab857f66c}
+      \field{labelalpha}{Hor91}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural Networks}
+      \field{title}{Approximation Capabilities of Multilayer Feedforward Networks}
+      \field{volume}{4}
+      \field{year}{1991}
+      \field{pages}{251\bibrangedash 257}
+      \range{pages}{7}
+    \endentry
+    \entry{dissanayake94}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1b1dcf6ac853801ea35c0fca50e11e1c}{%
+           family={Dissanayake},
+           familyi={D\bibinitperiod},
+           given={M.\bibnamedelimi W.\bibnamedelimi M.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=9bf6dabb0d3f1b0d4802cabe62c9873f}{%
+           family={Phan-Thien},
+           familyi={P\bibinithyphendelim T\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{66f8dfbbf6310b15f1b963c73b80d6be}
+      \strng{fullhash}{66f8dfbbf6310b15f1b963c73b80d6be}
+      \strng{bibnamehash}{66f8dfbbf6310b15f1b963c73b80d6be}
+      \strng{authorbibnamehash}{66f8dfbbf6310b15f1b963c73b80d6be}
+      \strng{authornamehash}{66f8dfbbf6310b15f1b963c73b80d6be}
+      \strng{authorfullhash}{66f8dfbbf6310b15f1b963c73b80d6be}
+      \field{labelalpha}{DP94}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications in Numerical Methods in Engineering}
+      \field{title}{Neural-Network-Based Approximations for Solving Partial Differential Equations}
+      \field{volume}{10}
+      \field{year}{1994}
+      \field{pages}{195\bibrangedash 201}
+      \range{pages}{7}
+    \endentry
+    \entry{hochreiter97}{article}{}
+      \name{author}{2}{}{%
+        {{hash=67eed9a763828f8510ead534591a2d63}{%
+           family={Hochreiter},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=07e9fb186fd9976e6be82e64365dc308}{%
+           family={Schmidhuber},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{c955bbc46524c46b7bd1441b444cef54}
+      \strng{fullhash}{c955bbc46524c46b7bd1441b444cef54}
+      \strng{bibnamehash}{c955bbc46524c46b7bd1441b444cef54}
+      \strng{authorbibnamehash}{c955bbc46524c46b7bd1441b444cef54}
+      \strng{authornamehash}{c955bbc46524c46b7bd1441b444cef54}
+      \strng{authorfullhash}{c955bbc46524c46b7bd1441b444cef54}
+      \field{labelalpha}{HS97}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural Computation}
+      \field{title}{Long Short-Term Memory}
+      \field{volume}{9}
+      \field{year}{1997}
+      \field{pages}{1735\bibrangedash 1780}
+      \range{pages}{46}
+    \endentry
+    \entry{lagaris98}{article}{}
+      \name{author}{3}{}{%
+        {{hash=92d10dbb011616ac1a21c8ccf55875bd}{%
+           family={Lagaris},
+           familyi={L\bibinitperiod},
+           given={I.\bibnamedelimi E.},
+           giveni={I\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=a69fc2548169625de5a2e0376be45c34}{%
+           family={Likas},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=aa2c1166ca15ba1d805579bfb2b3f170}{%
+           family={Fotiadis},
+           familyi={F\bibinitperiod},
+           given={D.\bibnamedelimi I.},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e49b0694aed695e8f498931a83518ee}
+      \strng{fullhash}{4e49b0694aed695e8f498931a83518ee}
+      \strng{bibnamehash}{4e49b0694aed695e8f498931a83518ee}
+      \strng{authorbibnamehash}{4e49b0694aed695e8f498931a83518ee}
+      \strng{authornamehash}{4e49b0694aed695e8f498931a83518ee}
+      \strng{authorfullhash}{4e49b0694aed695e8f498931a83518ee}
+      \field{labelalpha}{LLF98}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Neural Networks}
+      \field{title}{Artificial Neural Networks for Solving Ordinary and Partial Differential Equations}
+      \field{volume}{9}
+      \field{year}{1998}
+      \field{pages}{987\bibrangedash 1000}
+      \range{pages}{14}
+    \endentry
+    \entry{dean12}{article}{}
+      \name{author}{11}{}{%
+        {{hash=d344df02661ad14c26e86c5871d77951}{%
+           family={Dean},
+           familyi={D\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=be16c021e27e7ff613243832aa9333e3}{%
+           family={Corrado},
+           familyi={C\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=566e08b57950748f737c95bffeb2c68c}{%
+           family={Monga},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=bbd76d99dff4497fda6976a4f0146e4f}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=75106b3bd1e1596ff481c2c07bac3ae4}{%
+           family={Devin},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0736982b76d17a969ef73aa4a69a4604}{%
+           family={Mao},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bd87a211422b7f67eb3b884b260fad7d}{%
+           family={Senior},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e876bec526f38a69f16bfddc991efa9a}{%
+           family={Tucker},
+           familyi={T\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=938454f964d6c5f1dff40a53975d6678}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e9e4de2eceb02dcec5abd6099109b6b2}{%
+           family={Le},
+           familyi={L\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=5378ec9d20e3b351ec2122176010a9c5}{%
+           family={Ng.},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b53e72dcaf45c6df665c0c09b4ef300}
+      \strng{fullhash}{a726fff02a22f88cbc5f4c69fe762cfa}
+      \strng{bibnamehash}{7b53e72dcaf45c6df665c0c09b4ef300}
+      \strng{authorbibnamehash}{7b53e72dcaf45c6df665c0c09b4ef300}
+      \strng{authornamehash}{7b53e72dcaf45c6df665c0c09b4ef300}
+      \strng{authorfullhash}{a726fff02a22f88cbc5f4c69fe762cfa}
+      \field{labelalpha}{Dea+12}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Large Scale Distributed Deep Networks}
+      \field{year}{2012}
+      \field{pages}{1223\bibrangedash 1231}
+      \range{pages}{9}
+    \endentry
+    \entry{srivastava15}{article}{}
+      \name{author}{3}{}{%
+        {{hash=db1bc4d7248bd2a1010af23f7caaf680}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=b11d7200ab7be426efd834b366d1db84}{%
+           family={Greff},
+           familyi={G\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=07e9fb186fd9976e6be82e64365dc308}{%
+           family={Schmidhuber},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{99ebd5523e94ce12652c9b23fee75b40}
+      \strng{fullhash}{99ebd5523e94ce12652c9b23fee75b40}
+      \strng{bibnamehash}{99ebd5523e94ce12652c9b23fee75b40}
+      \strng{authorbibnamehash}{99ebd5523e94ce12652c9b23fee75b40}
+      \strng{authornamehash}{99ebd5523e94ce12652c9b23fee75b40}
+      \strng{authorfullhash}{99ebd5523e94ce12652c9b23fee75b40}
+      \field{labelalpha}{SGS15}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1505.00387v2}
+      \field{title}{Highway Networks}
+      \field{year}{2015}
+    \endentry
+    \entry{raissi17}{article}{}
+      \name{author}{3}{}{%
+        {{hash=95a17c39168b9e6b8812f207b4e036c1}{%
+           family={Raissi},
+           familyi={R\bibinitperiod},
+           given={Maziar},
+           giveni={M\bibinitperiod}}}%
+        {{hash=197d71332633e07aa578718628fdc405}{%
+           family={Perdikaris},
+           familyi={P\bibinitperiod},
+           given={Paris},
+           giveni={P\bibinitperiod}}}%
+        {{hash=bfaf154b1f300f885a75adce4c6b773e}{%
+           family={Karniadakis},
+           familyi={K\bibinitperiod},
+           given={George\bibnamedelima Em},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{767366a7d0fdde767496da8385111e76}
+      \strng{fullhash}{767366a7d0fdde767496da8385111e76}
+      \strng{bibnamehash}{767366a7d0fdde767496da8385111e76}
+      \strng{authorbibnamehash}{767366a7d0fdde767496da8385111e76}
+      \strng{authornamehash}{767366a7d0fdde767496da8385111e76}
+      \strng{authorfullhash}{767366a7d0fdde767496da8385111e76}
+      \field{labelalpha}{RPK17}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1711.10561}
+      \field{title}{Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations}
+      \field{year}{2017}
+    \endentry
+    \entry{sirignano18}{article}{}
+      \name{author}{2}{}{%
+        {{hash=62093f6a36451e41fa15139513cc5702}{%
+           family={Sirignano},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4778a3c25ee8a4ce33baf0b7238074cb}{%
+           family={Spiliopoulos},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{953e004b917c2a70111674ce4e0e6974}
+      \strng{fullhash}{953e004b917c2a70111674ce4e0e6974}
+      \strng{bibnamehash}{953e004b917c2a70111674ce4e0e6974}
+      \strng{authorbibnamehash}{953e004b917c2a70111674ce4e0e6974}
+      \strng{authornamehash}{953e004b917c2a70111674ce4e0e6974}
+      \strng{authorfullhash}{953e004b917c2a70111674ce4e0e6974}
+      \field{labelalpha}{SS18}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1708.07469v5}
+      \field{title}{DGM: A Deep Learning Algorithm for Solving Partial Differential Equations}
+      \field{year}{2018}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

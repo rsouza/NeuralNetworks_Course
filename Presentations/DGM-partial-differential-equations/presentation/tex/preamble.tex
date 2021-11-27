@@ -1,0 +1,133 @@
+\usefonttheme{professionalfonts}
+\usetheme{Antibes}
+\setbeamertemplate{footline}[frame number]
+
+\usepackage[
+    backend=biber,
+    style=alphabetic,
+    sorting=ynt
+]{biblatex}
+\addbibresource{../bib/bibliografia.bib}
+
+\makeatletter
+\setbeamertemplate{footline}
+{
+    \leavevmode%
+    \hbox{%
+        \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+            \usebeamerfont{author in head/foot}\insertshortauthor
+        \end{beamercolorbox}%
+        \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+            \usebeamerfont{title in head/foot}\insertshorttitle
+        \end{beamercolorbox}%
+        \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+            \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+            \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+        \end{beamercolorbox}}%
+        \vskip0pt%
+    }
+    \makeatother
+
+%% Itemize bullet head
+
+% set the itemize item symbol as a triangle
+\setbeamertemplate{itemize item}{\scriptsize$\blacktriangleright$}
+% set the itemize subitem symbol as a diamond
+\setbeamertemplate{itemize subitem}{\scriptsize$\diamond$}
+% set the itemize subsubitem symbol as a circle with a dot
+\setbeamertemplate{itemize subsubitem}{\scriptsize$\odot$}
+
+\usepackage[portuguese]{babel}
+\usepackage{csquotes}
+\usepackage{graphicx}
+\usepackage{amsmath, mathtools, mathrsfs, amssymb}
+\usepackage{verbatim}
+\usepackage{pgfplots}
+\usepackage{xcolor}
+    \pgfplotsset{compat=1.18}
+    \pgfplotsset{lua debug}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usetikzlibrary{positioning, matrix}
+\usepackage{bm}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    citecolor=blue,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdfpagemode=FullScreen,
+}
+
+%% Supress overful hbox warnings until this lenght
+\hfuzz=3.22pt 
+\vfuzz=4.6pt 
+
+\DeclareMathOperator{\proj}{proj \ }
+\renewcommand{\arraystretch}{1.4}
+\newcommand{\transpose}{\mathsf{T}}
+
+%% Environments
+
+\theoremstyle{plain} % default
+\newtheorem{teo}{Teorema}[section]
+\newtheorem*{teo*}{Teorema}
+\newtheorem{lem}{Lema}[section]
+\newtheorem*{lem*}{Lema}
+\newtheorem{prop}{Proposição}[section]
+\newtheorem{cor}[teo]{Corolário}
+\newtheorem*{cor*}{Corolário}
+\newtheorem*{axiom}{Axioma}
+
+\newtheorem*{TAU}{Teorema da Aproximação Universal}
+\newtheorem*{Riesz}{Teorema da Representação de Riesz}
+
+\theoremstyle{definition}
+\newtheorem{defn}{Definição}[section]
+\newtheorem*{defn*}{Definição}
+\newtheorem{conj}{Conjectura}[section]
+\newtheorem{exmp}{Exemplo}[section]
+\newtheorem{rem}{Observação}[section]
+\newtheorem*{rem*}{Observação}
+
+\theoremstyle{remark}
+% \newtheorem*{note}{Nota}
+\newtheorem{case}{Caso}
+
+
+% Macros
+
+\renewcommand{\Re}{\text{Re}}
+
+\newcommand{\bfx}{\bm{x}}
+\newcommand{\bfX}{\bm{X}}
+\newcommand{\bfy}{\bm{y}}
+\newcommand{\bfz}{\bm{z}}
+\newcommand{\bfw}{\bm{w}}
+\newcommand{\bfv}{\bm{v}}
+
+\newcommand{\bvx}{\vec{\bm{x}}}
+
+
+\newcommand{\bH}{\mathbb{H}}
+\newcommand{\K}{\mathbb{K}}
+\newcommand{\I}{\mathbb{I}}
+
+\DeclarePairedDelimiter{\dotprod}{\langle}{\rangle}
+
+\DeclareMathOperator{\rk}{rk}
+\DeclareMathOperator{\intt}{int}
+\DeclareMathOperator{\diam}{diam}
+\DeclareMathOperator{\rref}{rref}
+\DeclareMathOperator{\vspan}{span}
+\DeclareMathOperator{\lin}{Lin}
+\DeclareMathOperator{\supp}{supp}
+
+
+
+\DeclareMathOperator{\posto}{posto}
+
+% Swap the definition of \abs* and \norm*, so that \abs
+% and \norm resizes the size of the brackets, and the 
+% starred version does not.
