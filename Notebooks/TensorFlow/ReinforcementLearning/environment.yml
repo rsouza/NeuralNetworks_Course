@@ -1,0 +1,7 @@
+name: ai-notebook
+
+dependencies:
+  - python=3.5
+  - numpy
+  - matplotlib
+  - seaborn=0.7.1
