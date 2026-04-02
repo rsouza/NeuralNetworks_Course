@@ -13,6 +13,8 @@ A short course with code covering neural network fundamentals, from linear algeb
 | **Probability** | PMF/PDF, marginal & conditional probability | NumPy |
 | **PyTorch** | ANN, CNN, RNN/LSTM/GRU, GAN, Autoencoder, Transformers, Style Transfer, Transfer Learning | PyTorch |
 | **TensorFlow** | ANN, CNN, RNN/LSTM, GAN, Autoencoder, GCN, Style Transfer, Transfer Learning | TensorFlow/Keras |
+| **Comparison** | PyTorch vs TensorFlow side-by-side (NLP, classification pipelines) | PyTorch + TensorFlow |
+| **Reinforcement Learning** | Auction simulation with neural networks | TensorFlow/Keras |
 
 ### Setup
 
