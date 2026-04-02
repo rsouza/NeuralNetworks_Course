@@ -1,0 +1,64 @@
+# Neural Networks Course - Python Dependencies
+# Tested with Python 3.10+
+
+# === Core Scientific Stack ===
+numpy>=1.24,<3.0
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.6
+seaborn>=0.13
+
+# === Machine Learning ===
+scikit-learn>=1.3
+
+# === TensorFlow / Keras ===
+# TF 2.16+ uses Keras 3 by default (all notebooks updated for Keras 3)
+tensorflow>=2.16
+# tensorboard is included with tensorflow
+
+# === PyTorch ===
+# Install from https://pytorch.org/get-started/locally/ for your CUDA version
+torch>=2.0
+torchvision>=0.15
+
+# === Graph Neural Networks ===
+networkx>=3.0
+# torch-geometric: install separately per https://pytorch-geometric.readthedocs.io/
+# torch_geometric
+
+# === Visualization (optional — used in some notebooks) ===
+plotly>=5.0
+# cufflinks>=0.17          # optional: plotly + pandas integration
+# chart-studio>=1.1        # optional: plotly cloud
+# folium>=0.14             # optional: map visualizations
+
+# === Image Processing ===
+Pillow>=9.0
+opencv-python>=4.6        # cv2 — used in TF_CNN-III
+imageio>=2.25
+
+# === NLP / Text (optional — used in specific notebooks) ===
+# torchtext>=0.18          # new API — legacy API notebooks have compatibility notices
+# sacremoses              # tokenizer for annotated transformer
+tqdm>=4.60
+
+# === Dimensionality Reduction (optional) ===
+# umap-learn>=0.5         # used in 02_Pipelines
+
+# === Geospatial (optional — used in TF_CNN-III) ===
+# geopandas>=0.12
+# shapely>=2.0
+
+# === Keras/Sklearn Bridge (optional — used in TF_ANN-IV) ===
+# scikeras>=0.12          # replacement for keras.wrappers.scikit_learn
+
+# === TensorFlow Extras (optional) ===
+# tensorflow-probability   # used in TF_VAE-I
+# tensorflow-datasets      # used in TF_GAN-III (CycleGAN)
+# tensorflow-hub           # used in TF_style_transfer
+
+# === DEPRECATED / ARCHIVED — Do NOT install with current TF/PyTorch ===
+# stellargraph            # ARCHIVED 2023 — incompatible with TF 2.16+/Keras 3
+# allennlp                # ARCHIVED 2023 — incompatible with current PyTorch
+# tensorflow_docs         # optional, install from git if needed:
+#   pip install git+https://github.com/tensorflow/docs
