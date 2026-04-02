@@ -29,6 +29,7 @@ networkx>=3.0
 # === Visualization (optional — used in some notebooks) ===
 plotly>=5.0
 # cufflinks>=0.17          # optional: plotly + pandas integration
+# bar-chart-race           # optional: racing bar charts in 02_Pipelines
 # chart-studio>=1.1        # optional: plotly cloud
 # folium>=0.14             # optional: map visualizations
 
